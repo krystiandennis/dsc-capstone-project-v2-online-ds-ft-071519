@@ -78,41 +78,41 @@ The website has 28,425,726 listings in 148,470 destinations in 228 countries and
     * Tweets were lemmatized
     * Lemmatized tokens converted to a string
     
-<img src= 'text processing.png' height=50% width=50%> 
+<img src= 'text preprocessing.png' height=50% width=50%> 
 
 There were no missing values in the dataset. 
 
 ## Exploratory Data Analysis
 
-<img src= 'Distribution of Tweets by Class.png' height=50% width=50%> 
+<img src= 'Distribution of Tweets by Class.png' height=100% width=100%> 
 
 The following figure shows that the most tweets were gathered for Marriott Premium hotels, while select-service hotels generate the fewest tweets.
 
-<img src= 'Distribution of Sentiment by Class.png' height=50% width=50%> 
+<img src= 'Distribution of Sentiment by Class.png' height=100% width=100%> 
 
 We can see above the Distribution of Sentiment across all six classes of tweets. Luxury hotels have the strong positive sentiment at over 70% and the lowest negative sentiment at just over 7%. Expedia has the highest negative sentiment at more than 22%. 
 
-<img src= 'Sentiment Analysis Marriott.png' height=50% width=50%> 
+<img src= 'Sentiment Analysis Marriott.png' height=100% width=100%> 
 
 The above figure shows the sentiment for Marriott hotels (positive to negative) plotted against subjectivity, whether a tweet is fact-based or opinion. The more objective a tweet, the more neutral the sentiment. Opinion-based tweets range widely from negative to positive but do show a trend towards positivity. 
 
-<img src= 'Sentiment Analysis OTA.png' height=50% width=50%> 
+<img src= 'Sentiment Analysis OTA.png' height=100% width=100%> 
 
 The same is true for OTAs, as seen above. 
 
-<img src= 'marriott_pos_cloud.png' height=50% width=50%> 
+<img src= 'marriott_pos_cloud.png' height=100% width=100%> 
 
 A word cloud was created to show the most common words in positive tweets about Marriott Hotels. The most common theme is membership rewards. There is no strong positive message occuring in these tweets. 
 
-<img src= 'marriott_neg_cloud.png' height=50% width=50%> 
+<img src= 'marriott_neg_cloud.png' height=100% width=100%> 
 
 A word cloud showing common words in negative tweets reveals that rooms is a recurring theme. Interestingly, foie gras and wild animal are the next most prevalent words in the negative tweets. 
 
-<img src= 'ota_pos_cloud.png' height=50% width=50%> 
+<img src= 'ota_pos_cloud.png' height=100% width=100%> 
 
 A word cloud of positive OTA tweets shows consistent themes emerging: save money, best deal, travel. This is strong, consistent and positive.
 
-<img src= 'ota_neg_cloud.png' height=50% width=50%> 
+<img src= 'ota_neg_cloud.png' height=100% width=100%> 
 
 Negative tweets about OTAs reflect consist trouble booking, along with refunds and flights. 
 
@@ -144,7 +144,7 @@ Best Model Parameters:
 
 To evaluate model performance, ten tweets were randomly selected and fit into the model to see how they were classified. The original tweets and classifications were retrieved for comparison. The model correctly classified 8 out of 10 of the tweets selected. This is in line with its 83.2% accuracy during modeling. 
 
-<img src= 'Model_Performance.png' height=50% width=50%> 
+<img src= 'Model_Performance.png' height=100% width=100%> 
 
 ## Recommendations
 The model can be used to accurately predict whether a user will book with Marriott Hotels directly or with one of the Top 3 Online Travel agencies. Misclassified tweets can also be scrutinized to determine future areas of focus for brand messaging and customer service.
