@@ -1,8 +1,12 @@
 # Predicting Hotel Direct Booking Behavior
+## Abstract
+The data shows that customers are far more likely to book with an Online Travel Agency (OTA) than directly with a hotel. There are many factors that may contribute to why this happens. OTAs have no physical properties to maintain but hold 99% of hotel room inventory, they have larger marketing budgets and are one-stop-shop for flights, hotels and car rentals. However, studies show that a customer will visit the hotel's official site before booking the room with an OTA. So why do customers leave the hotel site, instaed booking directly? 
+
+This project aims to create a tool For Marriott Hotels, the largest hotel conglomerate in the world, to find out why customers do not book directly with their properties, in favor of OTAs. A Natural Language Processing tool will be created that predict whether the customer will book hotel-direct based on tweet analysis. The sentiment (positve or negative) of all tweets will also be graded. With this tool, Marriott can understand if a customer will choose to book direct or through an OTA and have insight as to the overall feeling towards the brand. This can help increase their share of online hotel bookings to greater than the current level of 26.21%.
 
 ## Business Understanding
 
-Over two thirds of all online hotel bookings are made through online travel agencies(OTAs), instead of being booked directly with the hotels themselves. Marriott Hotels make up the largest hotel group in the world (13.59% global market share) but only account for 26.21% of online hotel bookings. The top three online travel agencies by market share, Expedia, Booking.com and Priceline, account for 28.09%, 19.13%, 16.15% respectively. 
+Over two thirds of all online hotel bookings are made through OTAs, instead of being booked directly with the hotels themselves. Marriott Hotels make up the largest hotel group in the world (13.59% global market share) but only account for 26.21% of online hotel bookings. The top three online travel agencies by market share, Expedia, Booking.com and Priceline, account for 28.09%, 19.13%, 16.15% respectively. 
 
 <img src= 'OTAs-vs-HotelsV8revision-01.jpg' height=50% width=50%> 
 
@@ -62,7 +66,8 @@ Booking.com is a travel fare aggregator website and travel metasearch engine for
 The website has 28,425,726 listings in 148,470 destinations in 228 countries and territories worldwide. Each day more than 1,550,000 room nights are reserved on the website. The site is available in 43 languages. Its slogan is "Homes, houses and everything in between", although in commercials it is "Booking.com: Booking.yeah".
 
 ## Approach
-This project conducted using the OSEMN model. 
+This project conducted using the AOSEMN model. 
+**Abstract** - a self-contained, short, and powerful statement that describes a larger work.
 **Obtain** - obtain the data needed from available data sources.
 **Scrub** - clean up and filter data.
 **Explore** - Find patterns in your data through visualizations and charts. Extract features by using statistics to identify and test                 significant variables
