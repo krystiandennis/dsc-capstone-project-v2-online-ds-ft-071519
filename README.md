@@ -6,7 +6,7 @@ Over two thirds of all online hotel bookings are made through online travel agen
 
 <img src= 'OTAs-vs-HotelsV8revision-01.jpg' height=50% width=50%> 
 
-With respect to customer privcay, there are few public sources of information that can shed light on why customers overwhelmingly choose to book through online travel agencies, as opposed to booking directly with the hotel brands themselves. Twitter is increasingly used as a platform to both share opinions and receive customer service. 
+With respect to customer privacy, there are few public sources of information that can shed light on why customers overwhelmingly choose to book through online travel agencies, as opposed to booking directly with the hotel brands themselves. Twitter is increasingly used as a platform to both share opinions and receive customer service. 
 
 The purpose of this project is to use information availble on twitter to determine why customers choose not to book directly with Marriott Hotels. A natural language processing model will be created to analyze tweets:
 
@@ -62,11 +62,19 @@ Booking.com is a travel fare aggregator website and travel metasearch engine for
 The website has 28,425,726 listings in 148,470 destinations in 228 countries and territories worldwide. Each day more than 1,550,000 room nights are reserved on the website. The site is available in 43 languages. Its slogan is "Homes, houses and everything in between", although in commercials it is "Booking.com: Booking.yeah".
 
 ## Approach
+This project conducted using the OSEMN model. 
+**Obtain** - obtain the data needed from available data sources.
+**Scrub** - clean up and filter data.
+**Explore** - Find patterns in your data through visualizations and charts. Extract features by using statistics to identify and test                 significant variables
+**Model** - create and evaluate best model to predict desired outcome.
+**iNterpret** - tell the story of your data to a layman audience.
 
-1. Tweets obtained using Tweepy
+## Obtain
+Tweets obtained using Tweepy
     * Retweets were filtered during API calls
 
-2. Tweets were then pre-processed
+## Scrub
+Tweets were then pre-processed
     * Sentiment was calculated using VADER
     * Tweets were cleaned
         * Stop words removed
@@ -82,7 +90,8 @@ The website has 28,425,726 listings in 148,470 destinations in 228 countries and
 
 There were no missing values in the dataset. 
 
-## Exploratory Data Analysis
+## Explore
+EDA was conducted to visualize trends in data and gain greater understanding 
 
 <img src= 'Distribution of Tweets by Class.png' height=75% width=75%> 
 
@@ -116,7 +125,7 @@ A word cloud of positive OTA tweets shows consistent themes emerging: save money
 
 Negative tweets about OTAs reflect consist trouble booking, along with refunds and flights. 
 
-## Modeling Data
+## Model
 The data was split into training and validation sets for modeling. So that text data can be interpreted during modeling, it was vectorized, or transformed into an array of numbers. Two methods of vectorizatin were used:
 
 **Count Vectorization**
@@ -140,7 +149,7 @@ Best Model Parameters:
 * **Class_Weight**: None
 * **Dataset**: TF_IDF
 
-## Model Performance
+## iNterpret
 
 To evaluate model performance, ten tweets were randomly selected and fit into the model to see how they were classified. The original tweets and classifications were retrieved for comparison. The model correctly classified 8 out of 10 of the tweets selected. This is in line with its 83.2% accuracy during modeling. 
 
