@@ -84,35 +84,35 @@ There were no missing values in the dataset.
 
 ## Exploratory Data Analysis
 
-<img src= 'Distribution of Tweets by Class.png' height=100% width=100%> 
+<img src= 'Distribution of Tweets by Class.png' height=75% width=75%> 
 
 The following figure shows that the most tweets were gathered for Marriott Premium hotels, while select-service hotels generate the fewest tweets.
 
-<img src= 'Distribution of Sentiment by Class.png' height=100% width=100%> 
+<img src= 'Distribution of Sentiment by Class.png' height=75% width=75%> 
 
 We can see above the Distribution of Sentiment across all six classes of tweets. Luxury hotels have the strong positive sentiment at over 70% and the lowest negative sentiment at just over 7%. Expedia has the highest negative sentiment at more than 22%. 
 
-<img src= 'Sentiment Analysis Marriott.png' height=100% width=100%> 
+<img src= 'Sentiment Analysis Marriott.png' height=75% width=75%> 
 
 The above figure shows the sentiment for Marriott hotels (positive to negative) plotted against subjectivity, whether a tweet is fact-based or opinion. The more objective a tweet, the more neutral the sentiment. Opinion-based tweets range widely from negative to positive but do show a trend towards positivity. 
 
-<img src= 'Sentiment Analysis OTA.png' height=100% width=100%> 
+<img src= 'Sentiment Analysis OTA.png' height=75% width=75%> 
 
 The same is true for OTAs, as seen above. 
 
-<img src= 'marriott_pos_cloud.png' height=100% width=100%> 
+<img src= 'marriott_pos_cloud.png' height=75% width=75%> 
 
 A word cloud was created to show the most common words in positive tweets about Marriott Hotels. The most common theme is membership rewards. There is no strong positive message occuring in these tweets. 
 
-<img src= 'marriott_neg_cloud.png' height=100% width=100%> 
+<img src= 'marriott_neg_cloud.png' height=75% width=75%> 
 
 A word cloud showing common words in negative tweets reveals that rooms is a recurring theme. Interestingly, foie gras and wild animal are the next most prevalent words in the negative tweets. 
 
-<img src= 'ota_pos_cloud.png' height=100% width=100%> 
+<img src= 'ota_pos_cloud.png' height=75% width=75%> 
 
 A word cloud of positive OTA tweets shows consistent themes emerging: save money, best deal, travel. This is strong, consistent and positive.
 
-<img src= 'ota_neg_cloud.png' height=100% width=100%> 
+<img src= 'ota_neg_cloud.png' height=75% width=75%> 
 
 Negative tweets about OTAs reflect consist trouble booking, along with refunds and flights. 
 
